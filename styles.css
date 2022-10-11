@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+    background-color: azure;
+    background-image: url(images/pexels-johannes-plenio-1103970.jpg);
+    background-size: cover;
+    font-family: Arial, Tahoma, Serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    padding: 1rem 2rem;
+    background: white; 
+}
+  
+nav ul {
+    display: flex; 
+    list-style: none; 
+}
+ 
+nav li {
+    padding-left: 1rem; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #0d47a1
+}
