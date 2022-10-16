@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-image: url(images/simon-lee-TwieXZwVQvw-unsplash.jpg);
+    background-size: cover;
+}
+
+#topnav {
+    width: 100%;
+    position: fixed;
+    top: 20;
+    left: 0;
+    background-color: rgba(49, 0, 243, 0.463);
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    z-index: 100;
+ }
+
+.nav-link {
+    display: inline-table;
+    width: 100px;
+    height: 55px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 55px;     
+    text-decoration: none;
+ }
+
+#logo {
+    width: 120px;
+    background-color: rgba(4, 0, 237, 0.379);
+    font-weight: bold;
+}
+
+
+section {
+    height: 100vh;  
+    width: 100%;
+    display: grid;
+    place-items: center;
+    padding: 1em 3em;
+}
+.row {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.column {
+    width: 100%;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+}
+.card {
+    width: 100%;
+    height: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(#12192c 50%, #760def 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #f7f6ff;
+    margin: 1em 0;
+}
+
+p {
+    color: #575a7b;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+
+.icon-wrapper {
+    background-color: #9f2cfe;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+}
+  
+.column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
