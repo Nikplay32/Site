@@ -1,0 +1,102 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-image: url(https://images.unsplash.com/photo-1637825891028-564f672aa42c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-size: cover;
+}
+
+#topnav {
+  width: 100%;
+  position: fixed;
+  top: 20;
+  left: 0;
+  background-color: rgba(49, 0, 243, 0.463);
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  z-index: 100;
+}
+
+.nav-link {
+  display: inline-table;
+  width: 100px;
+  height: 55px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 55px;     
+  text-decoration: none;
+}
+
+#logo {
+  width: 120px;
+  background-color: rgba(4, 0, 237, 0.379);
+  font-weight: bold;
+}
+
+
+form {
+  display: inline-block;
+  position: absolute;
+  bottom: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+  text-align: left;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+h1{
+  padding: 10px;
+  text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.btn{
+  border: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border: 2px solid rgb(6, 106, 255);
+  border-radius: 20px;
+  padding: 0.55rem 0;
+  width: 130px;
+  font-weight: 600;
+  background: transparent;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  color:#fff
+}
+
+.btn.btn-pink:hover{
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn.btn-white{
+  transition: all 0.5s ease-in-out;
+}
+
+.btn.btn-white:hover{
+  background: #2130ff;
+  border-color: #3021ff;
+  color: #fff;
+}
+
