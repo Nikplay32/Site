@@ -40,6 +40,9 @@ body{
 
 /* Дизайн меню */
 
+
+/* Дизайн контейнеров */
+
 .about-left{
     background-color: #21D4FD;
     background-image: url(https://images.unsplash.com/photo-1461696114087-397271a7aedc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
@@ -120,6 +123,10 @@ h3{
 .about-right h2{
     font-weight: 600;
 }
+
+/* Дизайн контейнеров */
+
+/* Дизайн кнопок */
 .about-btns{
     display: flex;
     margin: 2rem 0;
@@ -153,6 +160,10 @@ h3{
     color: #fff;
 }
 
+/* Дизайн кнопок */
+
+/* Дизайн карточек */
+
 p{
     font-weight: 300;
     padding: 0.5rem;
@@ -179,6 +190,10 @@ p{
 .container {
     padding: 20px 16px;
 }
+
+/* Дизайн карточек */
+
+/* Подвал */
 
 .footer-content{
     display: flex;
@@ -210,6 +225,9 @@ p{
     margin: 0 10px;
 }
 
+/* Подвал */
+
+/*
 .circles {
     display: flex;
     min-height: 340px;
@@ -248,6 +266,9 @@ p{
     color: rgba(255, 255, 255, 0.75);
 }
 
+*/
+
+/* Галерея */
 
 .gallery {
     background-color: #12192c;
@@ -282,4 +303,7 @@ p{
     width: 90%;
     height: 90%;
 }
+
+/* Галерея */
+
    
